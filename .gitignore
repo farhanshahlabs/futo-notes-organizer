@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Real configuration (your actual notes_dir / work_dir / model paths are personal).
+# The repo ships config.example.json as the template instead.
+config.json
+
+# Data this tool produces at runtime (backups of your notes, run logs, dry-run previews, lock)
+notes_tagger_data/
+*.lock

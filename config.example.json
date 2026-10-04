@@ -1,0 +1,35 @@
+{
+  "notes_dir": "C:\\Users\\you\\Documents\\notes",
+  "provider": "openai",
+  "base_url": "http://localhost:8080",
+  "model": "your-model-name",
+  "api_key_env": null,
+  "work_dir": "C:\\scheduled_ai_jobs\\notes_organizer",
+
+  "tagging": true,
+  "organize_mode": "off",
+  "rewrite_mode": "off",
+  "new_note_days": 3,
+  "archive_folder": "Archived",
+
+  "min_idle_minutes": 60,
+  "max_age_hours": null,
+  "max_notes_per_run": 0,
+  "max_consecutive_failures": 3,
+  "log_retention_days": 30,
+  "backup_retention_days": 30,
+
+  "max_retries": 2,
+  "retry_wait_seconds": 3600,
+  "request_timeout_seconds": 600,
+  "max_note_chars": 12000,
+  "rewrite_max_chars": 20000,
+  "max_output_tokens": 1024,
+  "rewrite_max_tokens": 8192,
+  "max_tokens_field": "max_tokens",
+  "extra_body": {},
+  "min_tags": 3,
+  "max_tags": 6,
+  "skip_model_check": false,
+  "dry_run": false
+}
